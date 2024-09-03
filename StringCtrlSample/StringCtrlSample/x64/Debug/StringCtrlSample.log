@@ -789,7 +789,7 @@
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" 프로젝트의 "ComputeMetaGenInputs" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 프로젝트의 "ComputeMetaGenInputs" 대상으로 재정의하고 있습니다.
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetNativeManifest" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 프로젝트의 "GetNativeManifest" 대상으로 재정의하고 있습니다.
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상으로 재정의하고 있습니다.
-빌드 시작: 2024-09-03 오후 2:46:02
+빌드 시작: 2024-09-03 오후 10:46:44
 로깅의 세부 정보 표시가 Detailed(으)로 설정되었습니다.     1>2 노드의 "C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트(Build 대상)입니다.
      1>조건이 잘못되어 "EnableIntermediateOutputPathMismatchWarning" 대상을 건너뜁니다. ('$(RestoreProjectStyle)' == 'PackageReference')이(가) ('' == 'PackageReference')(으)로 확인되었습니다.
      1>"C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForInvalidConfigurationAndPlatform" 대상("SetTelemetryEnvironmentVariables" 대상이 종속됨):
@@ -812,10 +812,10 @@
      1>"C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" 파일에 있는 "SetTelemetryEnvironmentVariables" 대상("Build" 대상이 종속됨):
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "SetEnv" 작업을 사용합니다.
        "SetEnv" 작업
-         VSTEL_SolutionSessionID={36C6496D-9FBC-4235-B376-F5C7D7096C65}
+         VSTEL_SolutionSessionID={BEB383A3-1BAF-4F11-8567-46A1207716B2}
        "SetEnv" 작업을 실행했습니다.
        "SetEnv" 작업
-         VSTEL_CurrentSolutionBuildID=316135145
+         VSTEL_CurrentSolutionBuildID=966893233
        "SetEnv" 작업을 실행했습니다.
        "SetEnv" 작업
          VSTEL_SolutionPath=C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample.sln
@@ -959,8 +959,6 @@
        조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true')이(가) ('' != 'true' and '' == 'true')(으)로 확인되었습니다.
        조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(IntDirFullPath.StartsWith($(_Tmp), true, null))' == 'true' or '$(IntDirFullPath.StartsWith($(_Temp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(_Tmp), true, null))' == 'true' or '$(OutDirFullPath.StartsWith($(_Temp), true, null))' == 'true'))이(가) (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))(으)로 확인되었습니다.
        "MakeDir" 작업
-         "C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\" 디렉터리를 만들고 있습니다.
-         "x64\Debug\StringCtrlSample.tlog\" 디렉터리를 만들고 있습니다.
        "MakeDir" 작업을 실행했습니다.
      1>"StringCtrlSample.vcxproj" 프로젝트에 "PrepareForBuild" 대상을 빌드했습니다.
        "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
@@ -1118,23 +1116,29 @@
        조건이 잘못되어 "SelectAnalysisManifest" 대상을 건너뜁니다. ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='')이(가) ('false'=='true' and ''!='')(으)로 확인되었습니다.
        조건이 잘못되어 "ManagedIncrementalBuildPreProcessDependencyGraph" 대상을 건너뜁니다. ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')이(가) ('MyString.cpp;StringCtrlSample.cpp' != '' and 'false' == 'True')(으)로 확인되었습니다.
      1>"C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 파일에 있는 "ClCompile" 대상("_ClCompile" 대상이 종속됨):
-       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "Delete" 작업을 사용합니다.
-       "Delete" 작업
-       "Delete" 작업을 실행했습니다.
+       조건이 잘못되어 "Delete" 작업을 건너뜁니다. ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))이(가) ('EditAndContinue' != '' and 'EditAndContinue' != 'None' and 'EditAndContinue' != 'OldStyle' and 'x64\Debug\vc143.pdb' != '' and !Exists(x64\Debug\vc143.pdb))(으)로 확인되었습니다.
        조건이 잘못되어 "MultiToolTask" 작업을 건너뜁니다. ('%(ClCompile.CompilerIteration)' == 'Modules')이(가) ('' == 'Modules')(으)로 확인되었습니다.
        조건이 잘못되어 "MultiToolTask" 작업을 건너뜁니다. ('%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' == 'true')이(가) ('' == '' and 'false' == 'true')(으)로 확인되었습니다.
        조건이 잘못되어 "CL" 작업을 건너뜁니다. ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.CompilerIteration)' == '' and '$(MultiProcCL)' != 'true')이(가) ('NotUsing' == 'Create' and '' == '' and 'false' != 'true')(으)로 확인되었습니다.
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "CL" 작업을 사용합니다.
        "CL" 작업
-         PDB "x64\Debug\vc143.pdb" 누락으로 인해 모든 소스 파일을 강제로 다시 컴파일합니다.
+         읽기 추적 로그:
+         	x64\Debug\StringCtrlSample.tlog\CL.read.1.tlog
+         C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\MYSTRING.CPP|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE.CPP에 대한 출력:
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ
+         C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\MyString.cpp이(가) 2024-09-03 오후 10:46:39에서 수정되었으므로 MyString.cpp이(가) 컴파일됩니다.
+         C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\MYSTRING.CPP에 대한 출력:
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ
+         쓰기 추적 로그:
+         	x64\Debug\StringCtrlSample.tlog\CL.write.1.tlog
          도구로 전달된 환경 변수:
-           VS_UNICODE_OUTPUT=1240
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MyString.cpp StringCtrlSample.cpp
+           VS_UNICODE_OUTPUT=1592
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MyString.cpp
          추적 명령:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\x64\Debug\StringCtrlSample.tlog /r "C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\MYSTRING.CPP|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE.CPP" /b MSBuildConsole_CancelEvent18e5c050baeb4b0191bf07d3a715e6f9  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MyString.cpp StringCtrlSample.cpp
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\x64\Debug\StringCtrlSample.tlog /r C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\MYSTRING.CPP /b MSBuildConsole_CancelEventaad3b92f3fec41acaf35b315fb781ad1  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt MyString.cpp
          MyString.cpp
-         StringCtrlSample.cpp
-         코드를 생성하고 있습니다...
+     1>C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\MyString.cpp(33,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
        "CL" 작업을 실행했습니다.
      1>"StringCtrlSample.vcxproj" 프로젝트에 "ClCompile" 대상을 빌드했습니다.
        조건이 잘못되어 "RunSelectedFileNativeCodeAnalysis" 대상을 건너뜁니다. ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='')이(가) ('false'=='true' and ''!='')(으)로 확인되었습니다.
@@ -1248,12 +1252,45 @@
      1>"C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 파일에 있는 "Link" 대상("_Link" 대상이 종속됨):
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "Link" 작업을 사용합니다.
        "Link" 작업
+         쓰기 추적 로그:
+         	x64\Debug\StringCtrlSample.tlog\link.write.1.tlog
+         읽기 추적 로그:
+         	x64\Debug\StringCtrlSample.tlog\link.read.1.tlog
+         C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ에 대한 출력:
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.ILK
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.EXE
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.PDB
+         C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ에 대한 입력 내용:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBCCP32.LIB
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\MSVCPRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\MSVCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\OLDNAMES.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UCRT\X64\UCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\BIN\HOSTX64\X64\CVTRES.EXE
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\VC143.PDB
+         소스를 컴파일해야 합니다. 입력 내용 C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ이(가) 출력 내용 C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.EXE보다 최신입니다.
          도구로 전달된 환경 변수:
-           VS_UNICODE_OUTPUT=1628
+           VS_UNICODE_OUTPUT=1736
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.exe" /INCREMENTAL /ILK:"x64\Debug\StringCtrlSample.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.lib" /MACHINE:X64 x64\Debug\MyString.obj
          x64\Debug\StringCtrlSample.obj
          추적 명령:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\x64\Debug\StringCtrlSample.tlog /r "C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ" /b MSBuildConsole_CancelEventd0ec0feb69fc42f7a80d052c6ab958c0  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.exe" /INCREMENTAL /ILK:"x64\Debug\StringCtrlSample.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.lib" /MACHINE:X64 x64\Debug\MyString.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\x64\Debug\StringCtrlSample.tlog /r "C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\MYSTRING.OBJ|C:\USERS\JUNKU\SAMPLECODE\STRINGCTRLSAMPLE\STRINGCTRLSAMPLE\X64\DEBUG\STRINGCTRLSAMPLE.OBJ" /b MSBuildConsole_CancelEvent41de3abd2bb244d987fef1762b34b519  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.exe" /INCREMENTAL /ILK:"x64\Debug\StringCtrlSample.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\StringCtrlSample\x64\Debug\StringCtrlSample.lib" /MACHINE:X64 x64\Debug\MyString.obj
          x64\Debug\StringCtrlSample.obj
        "Link" 작업을 실행했습니다.
        "Message" 작업
@@ -1511,6 +1548,7 @@
        "FindUnderPath" 작업
          비교 경로는 "x64\Debug\"입니다.
        "FindUnderPath" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "Delete" 작업을 사용합니다.
        "Delete" 작업
        "Delete" 작업을 실행했습니다.
        "RemoveDuplicates" 작업
@@ -1539,7 +1577,12 @@
      1>"C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
-    경고 0개
+
+       "C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\StringCtrlSample.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         C:\Users\junku\SampleCode\StringCtrlSample\StringCtrlSample\MyString.cpp(33,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+
+    경고 1개
     오류 0개
 
-경과 시간: 00:00:01.30
+경과 시간: 00:00:00.98

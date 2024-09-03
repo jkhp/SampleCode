@@ -789,7 +789,7 @@
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MetaGen.targets" 프로젝트의 "ComputeMetaGenInputs" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 프로젝트의 "ComputeMetaGenInputs" 대상으로 재정의하고 있습니다.
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetNativeManifest" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets" 프로젝트의 "GetNativeManifest" 대상으로 재정의하고 있습니다.
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상을 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" 프로젝트의 "GetTargetPathWithTargetPlatformMoniker" 대상으로 재정의하고 있습니다.
-빌드 시작: 2024-09-03 오후 4:25:36
+빌드 시작: 2024-09-03 오후 10:33:25
 로깅의 세부 정보 표시가 Detailed(으)로 설정되었습니다.     1>2 노드의 "C:\Users\junku\SampleCode\Practice\Practice\Practice.vcxproj" 프로젝트(Build 대상)입니다.
      1>조건이 잘못되어 "EnableIntermediateOutputPathMismatchWarning" 대상을 건너뜁니다. ('$(RestoreProjectStyle)' == 'PackageReference')이(가) ('' == 'PackageReference')(으)로 확인되었습니다.
      1>"C:\Users\junku\SampleCode\Practice\Practice\Practice.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForInvalidConfigurationAndPlatform" 대상("SetTelemetryEnvironmentVariables" 대상이 종속됨):
@@ -812,10 +812,10 @@
      1>"C:\Users\junku\SampleCode\Practice\Practice\Practice.vcxproj" 프로젝트의 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" 파일에 있는 "SetTelemetryEnvironmentVariables" 대상("Build" 대상이 종속됨):
        "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "SetEnv" 작업을 사용합니다.
        "SetEnv" 작업
-         VSTEL_SolutionSessionID={7B85F9E5-1C63-4419-8512-85B78EFD4A5B}
+         VSTEL_SolutionSessionID={E931910E-553B-4BA2-A7A6-7A431CBB3F76}
        "SetEnv" 작업을 실행했습니다.
        "SetEnv" 작업
-         VSTEL_CurrentSolutionBuildID=4226560599
+         VSTEL_CurrentSolutionBuildID=1532011295
        "SetEnv" 작업을 실행했습니다.
        "SetEnv" 작업
          VSTEL_SolutionPath=C:\Users\junku\SampleCode\Practice\Practice.sln
@@ -1125,16 +1125,16 @@
          	x64\Debug\Practice.tlog\CL.read.1.tlog
          C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\소스.CPP에 대한 출력:
          	C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\소스.OBJ
-         C:\Users\junku\SampleCode\Practice\Practice\소스.cpp이(가) 2024-09-03 오후 4:25:36에서 수정되었으므로 소스.cpp이(가) 컴파일됩니다.
+         C:\Users\junku\SampleCode\Practice\Practice\소스.cpp이(가) 2024-09-03 오후 10:33:20에서 수정되었으므로 소스.cpp이(가) 컴파일됩니다.
          C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\소스.CPP에 대한 출력:
          	C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\소스.OBJ
          쓰기 추적 로그:
          	x64\Debug\Practice.tlog\CL.write.1.tlog
          도구로 전달된 환경 변수:
-           VS_UNICODE_OUTPUT=1676
+           VS_UNICODE_OUTPUT=1360
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "소스.cpp"
          추적 명령:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\Practice\Practice\x64\Debug\Practice.tlog /r "C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\소스.CPP" /b MSBuildConsole_CancelEvent28ea78f4f3f249cda65d5a9a6df71678  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "소스.cpp"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\Practice\Practice\x64\Debug\Practice.tlog /r "C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\소스.CPP" /b MSBuildConsole_CancelEvent5846c9bdddec4bf4ad0ee2e9cb25304b  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "소스.cpp"
          소스.cpp
        "CL" 작업을 실행했습니다.
      1>"Practice.vcxproj" 프로젝트에 "ClCompile" 대상을 빌드했습니다.
@@ -1278,13 +1278,14 @@
          	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\OLDNAMES.LIB
          	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\LIB\X64\VCRUNTIMED.LIB
          	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UCRT\X64\UCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.37.32822\BIN\HOSTX64\X64\VCTIP.EXE
          	C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\VC143.PDB
          소스를 컴파일해야 합니다. 입력 내용 C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\소스.OBJ이(가) 출력 내용 C:\USERS\JUNKU\SAMPLECODE\PRACTICE\X64\DEBUG\PRACTICE.EXE보다 최신입니다.
          도구로 전달된 환경 변수:
-           VS_UNICODE_OUTPUT=1740
+           VS_UNICODE_OUTPUT=1748
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.exe" /INCREMENTAL /ILK:"x64\Debug\Practice.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.lib" /MACHINE:X64 "x64\Debug\소스.obj"
          추적 명령:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\Practice\Practice\x64\Debug\Practice.tlog /r "C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\소스.OBJ" /b MSBuildConsole_CancelEventb8bab558e31e4ccca670038ae91f3859  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.exe" /INCREMENTAL /ILK:"x64\Debug\Practice.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.lib" /MACHINE:X64 "x64\Debug\소스.obj"
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\junku\SampleCode\Practice\Practice\x64\Debug\Practice.tlog /r "C:\USERS\JUNKU\SAMPLECODE\PRACTICE\PRACTICE\X64\DEBUG\소스.OBJ" /b MSBuildConsole_CancelEventc0772b7cbf0a43cd9f397c818e8fc88c  /c "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.exe" /INCREMENTAL /ILK:"x64\Debug\Practice.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.lib" /MACHINE:X64 "x64\Debug\소스.obj"
        "Link" 작업을 실행했습니다.
        "Message" 작업
          Practice.vcxproj -> C:\Users\junku\SampleCode\Practice\x64\Debug\Practice.exe
@@ -1573,4 +1574,4 @@
     경고 0개
     오류 0개
 
-경과 시간: 00:00:00.75
+경과 시간: 00:00:01.26
