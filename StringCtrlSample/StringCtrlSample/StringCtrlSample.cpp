@@ -2,20 +2,18 @@
 #include "MyString.h"
 using namespace std;
 
+//MyString.h, MyString.cpp에 const char *에 대한 변환 생성자와 char *로의 형변환 연산자를 만들어 넣어 작동하게 만들기
+
+void TestFunc(const CMyString &strParam) {
+	cout << strParam << endl;
+}
+
 int main(int argc, char* argv[])
 {
-	// MyString.h, MyString.cpp을 수정해서 동작하게 만들기
-	CMyString strData, strTest;
-	strData.SetString("Hello");
-	strTest.SetString("World");
+	CMyString strData("Hello");
 
-	//복사 생성
-	CMyString strNewData(strData);
-	cout << strNewData.GetString() << endl;
-
-	// 단순 대입 연산자 호출
-	strNewData = strTest;
-	cout << strNewData.GetString() << endl;
+	::TestFunc(strData);
+	::TestFunc(CMyString("World");
 
 	return 0;
 
