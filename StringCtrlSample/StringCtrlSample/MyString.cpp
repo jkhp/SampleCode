@@ -15,6 +15,13 @@ CMyString::CMyString(const CMyString &rhs)
 	this->SetString(rhs.GetString());
 }
 
+CMyString::CMyString(const char* pszParam)		//const char *에 대한 변환 생성자
+	:m_pszData(NULL),
+	m_nLength(0)
+{
+	SetString(pszParam);
+}
+
 CMyString::~CMyString()		// 새로운 문자열 할당에 앞서 기존 정보를 해제
 {
 	Release();

@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	CMyString strData("Hello");
 
 	::TestFunc(strData);
-	::TestFunc(CMyString("World");
+	::TestFunc(CMyString("World"));
 
 	return 0;
 
