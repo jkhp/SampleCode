@@ -3,6 +3,7 @@ class CMyString
 {
 public:
 	CMyString();
+	CMyString(const CMyString& rhs);		//복사 생성자 선언
 	~CMyString();
 
 private:
@@ -13,5 +14,6 @@ public:
 	int SetString(const char* pszParam);
 	const char* GetString() const;		//const char* 다음에 또 const?
 	void Release();
+	CMyString& operator=(const CMyString& rhs);		//깊은 복사(?)를 위한 대입 연산자 정의
 };
 

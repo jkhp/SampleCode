@@ -8,6 +8,13 @@ CMyString::CMyString()
 {
 }
 
+CMyString::CMyString(const CMyString &rhs)
+	:m_pszData(NULL),
+	m_nLength(0)
+{
+	this->SetString(rhs.GetString());
+}
+
 CMyString::~CMyString()		// 새로운 문자열 할당에 앞서 기존 정보를 해제
 {
 	Release();
@@ -60,4 +67,12 @@ void  CMyString::Release()
 	//초기화
 	m_pszData = NULL;
 	m_nLength = 0;
+}
+
+CMyString& CMyString::operator=(const CMyString& rhs)		//this(포인터)와 SetString(동적할당 및 문자열 저장)으로 깊은 복사, 자료형 뒤 &..?
+{
+	if(this != &rhs)
+		this->SetString(rhs.GetString());		//&rhs의 m_pszParam(GetString 반환값)을 복사
+
+	return *this;		// 포인터 값이 포인터?
 }
