@@ -5,6 +5,7 @@ public:
 	CMyString();
 	CMyString(const CMyString& rhs);		//복사 생성자 선언
 	explicit CMyString(const char *pszParam);			//const char* 에 대한 변환 생성자
+	CMyString(CMyString &&rhs);		// 이동생성자
 	~CMyString();
 
 	operator char* (void) const { return m_pszData; }		//형변환 생성자, const를 달지 않으면 TestFunc의 cout에서 에러 발생?

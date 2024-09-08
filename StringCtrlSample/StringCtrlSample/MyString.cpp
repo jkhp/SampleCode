@@ -22,6 +22,23 @@ CMyString::CMyString(const char* pszParam)		//const char *에 대한 변환 생성자
 	SetString(pszParam);
 }
 
+//이동 생성자
+CMyString::CMyString(CMyString &&rhs)
+	:m_pszData(NULL),
+	m_nLength(0)
+{
+	cout << "CMyString 이동 생성자 호출" << endl;
+	
+	// 원본(포인터 객체)이 곧 소멸되므로 새로운 객체에 얕은 복사
+	m_pszData = rhs.m_pszData;
+	m_nLength = rhs.m_nLength;
+
+	// 원본 임시 객체의 맴버들은 초기화한다. 해제하면 안됨 (아직은?)
+	// rhs를 NULL로 초기화 해주므로 두 포인터가 같은 대상을 가르킬 일은 없음 => 어차피 소멸할건데 굳이 필요한가? => 객체뿐 아니라 m_pszData도 포인터라 오류를 야기?  
+	rhs.m_pszData = NULL;
+	rhs.m_nLength = 0;
+}
+
 CMyString::~CMyString()		// 새로운 문자열 할당에 앞서 기존 정보를 해제
 {
 	Release();
