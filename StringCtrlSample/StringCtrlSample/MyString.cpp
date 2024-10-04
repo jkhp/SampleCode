@@ -8,6 +8,13 @@ CMyString::CMyString()
 {
 }
 
+CMyString::CMyString(const char* pszParam)		//const char *에 대한 변환 생성자
+	:m_pszData(NULL),
+	m_nLength(0)
+{
+	SetString(pszParam);
+}
+//복사 생성자
 CMyString::CMyString(const CMyString &rhs)
 	:m_pszData(NULL),
 	m_nLength(0)
@@ -15,15 +22,8 @@ CMyString::CMyString(const CMyString &rhs)
 	this->SetString(rhs.GetString());
 }
 
-CMyString::CMyString(const char* pszParam)		//const char *에 대한 변환 생성자
-	:m_pszData(NULL),
-	m_nLength(0)
-{
-	SetString(pszParam);
-}
-
 //이동 생성자
-CMyString::CMyString(CMyString &&rhs)
+CMyString::CMyString(CMyString &&rhs) 
 	:m_pszData(NULL),
 	m_nLength(0)
 {
@@ -99,4 +99,58 @@ CMyString& CMyString::operator=(const CMyString& rhs)		//this(포인터)와 SetStrin
 		this->SetString(rhs.GetString());		//&rhs의 m_pszParam(GetString 반환값)을 복사
 
 	return *this;		// 포인터 값이 포인터?
+}
+
+int CMyString::GetLength() const
+{
+	return m_nLength;
+}
+
+int CMyString::Append(const char* pszParam)
+{
+	//매개변수 유효성 검사
+	if (pszParam == NULL)
+		return 0;
+
+	int nLenParam = strlen(pszParam);
+
+	if (nLenParam == 0)
+		return 0;
+
+	//세트된 문자열이 없다면 새로 문자열을 할당한 것과 동일하게 처리
+	if (m_pszData == NULL)
+	{
+		SetString(pszParam);
+
+		return m_nLength;
+	}
+
+	//현재 문자열의 길이 백업
+	int nLenCur = m_nLength;
+
+	//두 문자열을 합쳐서 저장할 수 있는 메모리를 새로 할당
+	char* pszResult = new char[nLenCur + nLenParam + 1];
+
+	// 문자열 조합
+	strcpy_s(pszResult, sizeof(char) * (nLenCur + 1), m_pszData);
+	strcpy_s(pszResult + (sizeof(char) * nLenCur),
+		sizeof(char) * (nLenParam + 1), pszParam);
+
+	//기존 문자열 삭제 및 멤버 정보 갱신
+	Release();
+	m_pszData = pszResult;
+	m_nLength = nLenCur + nLenParam;
+
+	return m_nLength;
+}
+
+CMyString CMyString::operator+(const CMyString& rhs)
+{
+
+
+}
+CMyString& CMyString::operator+=(const CMyString& rhs)
+{
+
+
 }

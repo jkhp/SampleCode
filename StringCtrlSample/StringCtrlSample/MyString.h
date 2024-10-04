@@ -5,7 +5,7 @@ public:
 	CMyString();
 	CMyString(const CMyString& rhs);		//복사 생성자 선언
 	explicit CMyString(const char *pszParam);			//const char* 에 대한 변환 생성자
-	CMyString(CMyString &&rhs);		// 이동생성자
+	CMyString(CMyString &&rhs);		// 이동 생성자
 	~CMyString();
 
 	operator char* (void) const { return m_pszData; }		//형변환 생성자, const를 달지 않으면 TestFunc의 cout에서 에러 발생?
@@ -19,5 +19,13 @@ public:
 	const char* GetString() const;		//const char* 다음에 또 const?
 	void Release();
 	CMyString& operator=(const CMyString& rhs);		//깊은 복사(?)를 위한 대입 연산자 정의
+
+public:
+	int GetLength() const;
+	int Append(const char* pszParam);
+
+	CMyString operator+(const CMyString& rhs);
+	CMyString& operator+=(const CMyString& rhs);
+
 };
 
